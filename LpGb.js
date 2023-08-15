@@ -12,11 +12,11 @@ const Video = document.getElementById("idVideo");
 const Div2 =document.getElementById("idDiv2")
 
 const Encabezado = new Image();
-        Encabezado.src = "15.png";
+        Encabezado.src = "e15.png";
         Encabezado.onload = function(){
         }
 const Decoracion = new Image();
-        Decoracion.src="7.png"
+        Decoracion.src="p7.png"
         Decoracion.onload=function(){
 
         }
@@ -31,7 +31,7 @@ const TEXTO_ETIQUETA="Reproduce el vídeo y cuando estés preparado intenta resp
 const question=[]
 for(let i=0;i<NoPreguntas;i++){
     question[i] = new Image();
-    question[i].src="./Avin3/RAJ/"+(i+32)+".png"
+    question[i].src="./g"+i+".png"
     question[i].onload=function(){}
 
 }
@@ -42,7 +42,7 @@ let index=0,repeticion=0,pos=-raj,posX=-raj,posY=raj,
 
 let p2x,p2ancho,p2a,p2b,p2Altura,p2alto,p2y;
 
-const p2Ext=["./Avi7/oto/","./Avin3/RpJ","./mlt/s","./avi6/"]
+const p2Ext=["./","./RpJ","./s","./t"]
 const Noframes=[32,3,5,22],relacion=[0.7,1,1,0.5],p2NoRetardo=[3,7,7,3]
 const p2color=["#f74395","#5b14b7","#30a5e8","#66a329"]
 const p2texto=["Posición y desplazamiento","Posición vs tiempo","Movimiento uniforme","Velocidad variable"]
@@ -412,7 +412,7 @@ let subTitulo= new TEXTO("","#f74395","arial",20,"center","middle")
 
 let opcion=[]//"./Avin3/RAJ/"+i+".png"
 for(let i=0;i<NoOpciones*NoPreguntas;i++){
-    opcion[i]= new ETIQUETA_CENTRAL("./Avin3/RAJ/"+i+".png")
+    opcion[i]= new ETIQUETA_CENTRAL("./m"+i+".png")
 }
 
 function onRedimensionar(){
